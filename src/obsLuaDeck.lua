@@ -84,7 +84,7 @@ lmc_set_handler('MACROS', function(button, direction)
 								      macroCA(49)
                                                                       print('INTRO - CTRL+ALT+1    -   ' .. button)
                                                                    else
-																   --This next one is if your Numpad has a 000 button
+					--This next one is if your Numpad has a 000 button doesn't send a triple action
                                                                        if button == 48 then -- 0
 								          if i == 0 then
                                                                              macroCA(48)
